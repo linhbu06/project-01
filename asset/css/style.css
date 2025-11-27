@@ -55,6 +55,7 @@ a {
 
 /* header */
 .header {
+    padding-top: 1px;
     background: #e6f0ff;
     height: 125vh;
     position: relative;
@@ -65,15 +66,26 @@ a {
     margin: 0 auto;
 }
 
+.menu-sticky {
+   background: #e6f0ff; 
+   top: -10px;
+    position: sticky;
+    /* padding-top: 22px; */
+    /* background: orange; */
+    padding-bottom: 12px;
+    z-index: 1;
+}
+
 /* Navbar */
 
 .nav {
     display: flex;
-    padding-top: 38px;
+    padding-top: 26px;
 }
 
 .nav img {
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .nav ul {
@@ -194,6 +206,7 @@ a {
 }
 
 .clients .images .clients-img:hover {
+    cursor: pointer;
     border-radius: 12px;
     background: #fff;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
@@ -681,5 +694,4 @@ a {
     font-size: 1.4rem;
     font-weight: 400;
 }
-
 
